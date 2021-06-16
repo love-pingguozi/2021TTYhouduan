@@ -25,9 +25,9 @@ spring:
     name: player-movie
   datasource:
     druid:
-      url: jdbc:mysql://localhost:3306/play?characterEncoding=utf-8
+      url: jdbc:mysql://localhost:3306/play
       username: root
-      password: wwq_2021
+      password:
       driverClassName: com.mysql.jdbc.Driver
       initialSize: 5  #初始建立连接数量
       minIdle: 5  #最小连接数量

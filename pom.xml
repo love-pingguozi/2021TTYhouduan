@@ -61,6 +61,7 @@
                             <artifactId>lombok</artifactId>
                         </exclude>
                     </excludes>
+                    <mainClass>com.player.movie.PlayerMovieApplication</mainClass>
                 </configuration>
             </plugin>
         </plugins>
